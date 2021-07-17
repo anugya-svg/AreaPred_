@@ -1,0 +1,314 @@
+<html>
+    <head>
+        <title>
+            Area Predictor
+        </title>
+      <link rel="stylesheet" types="text/css" href="{{url_for('static', filename='mainpage.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='bootstrap.css')}}">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <style>
+        .bgimage{
+   background-image: url({{ url_for('static', filename='side-view-of-woman-in-illuminated-city-at-night-315191.jpg') }});
+    background-size: 100% 100%;
+    background background-attachment: fixed;
+    width: 100%;
+    height: 760px;
+
+}
+.headerset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+.headerset h2{
+    font-size: 42px;
+}
+.headerset h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+
+
+
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 700px;
+
+}
+
+.ourservices h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.ourservices p{
+   padding: 10px;
+    font-size: 20px;
+}
+.rowsetting{
+    margin: 80px 0px !important;
+
+}
+
+.rowsetting p{
+    padding: 10px;
+
+}
+
+.rowsetting h2{
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+
+.fa-american-sign-language-interpreting {
+    margin-top: 28px;
+}
+
+.fa-map-signs{
+    margin-top: 28px;
+}
+
+.fa-signal{
+    margin-top: 28px;
+}
+
+
+
+.ourteam{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+
+
+}
+
+.ourteam h1{
+     font-size: 50px;
+    font-weight: bold;
+}
+
+
+.teamsetting{
+    margin-top: 90px  ;
+
+}
+.footer1{
+    width: 100%;
+    height: 60px;
+}
+    </style>
+
+    <body>
+         <div class="bgimage" >
+           <nav class="navbar navbar-expand-md bg-dark navbar-dark ">
+             <div class="container">
+                 <a href="" class="navbar-brand text-warning font-weight-bold">V-PROGEEKS</a>
+                 
+                 
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar"> 
+                 
+                 <span class="navbar-toggler-icon"></span>
+                 
+                 </button>
+                 
+                 <div class="collapse navbar-collapse " id="collapsenavbar">
+                     <ul class="navbar-nav ml-auto ">
+                         <li class="nav-item">
+                             <a href="" class="nav-link text-white">Services </a>
+                         </li>
+                         
+                         <li class="nav-item">
+                             <a href="about" class="nav-link text-white">About Us </a>
+                         </li>
+                         
+                         <li class="nav-item">
+                             <a href="team" style="text-decoration: none; color: white;" class="nav-link text-white">Team </a>
+                         </li>
+                         
+                         <li class="nav-item">
+                             <a href="contact" class="nav-link text-white"> Contact</a>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+             
+             </nav>
+             
+             <div class="container text-center text-white headerset">
+                 <h2>Welcome To Our Website</h2>
+                 <h1>Predict the safety of any area</h1><br>
+                 <button class="btn btn-warning text-white btn-lg"> <a href="index" style="text-decoration: none; color: white;">Get Started</a></button>
+             </div>
+             </div>
+              <section class="container ourservices text-center">
+                 <h1>SERVICES</h1>
+                 <p>Here are the different services which we are going to  provide through this platform.</p>
+                 
+                 <div class="row rowsetting">
+                 
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                     <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-american-sign-language-interpreting fa-3x text-white"></i>" </div>
+                     
+                     
+                     <h2>Road Predictor
+                     </h2>
+                     <p>Predict the road safety in which you are going.</p>
+                 </div>
+                 
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                    <br>
+                     <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-map-signs fa-3x text-white"></i></div>
+                     
+                     
+                      <h2>    <a href="index" style="text-decoration: none; color: black;" >Area Predictor</a></h2>
+                     <p>Predict You area where you are going for work or to live.</p>
+                 </div>
+                 
+                 
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                     <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-signal fa-3x text-white"></i> </div>
+                     
+                     
+                     <h2>Safety Equipments</h2>
+                      <p>Shop for the various equipments which can be used in emergency.</p>
+                 </div>
+                 
+                 
+                 
+                 
+                 
+                 
+                 </div>
+             </section>
+             <hr>
+             
+             <section class="container ourservices text-center">
+                 <h1>Some website link</h1>
+                 <p>Here are some links to the government website which are useful during the case of emergency.Please Check  it out the various links. </p>
+                 
+                 <div class="row rowsetting">
+                 
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                     <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-american-sign-language-interpreting fa-3x text-white"></i>" </div>
+                     
+                     
+                     <h2><a href="http://www.wpl1090up.in/" style="text-decoration: none; color: black;padding-bottom: 2px;">Women Power <br>Line
+                     </a></h2>
+                     
+                 </div>
+                 <br>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                    
+                     <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-map-signs fa-3x text-white"></i></div>
+                     
+                     
+                     <h2><a href="https://uppolice.gov.in/" style="text-decoration: none; color: black; padding-top: 2px;">Uttar Pradesh <br>Police</a></h2>
+                     <p></p>
+                 </div>
+                 
+                 
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+
+                     <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-signal fa-3x text-white"></i> </div>
+                     
+                     
+                     <h2><a href="http://dcw.delhigovt.nic.in/wps/wcm/connect/Lib_DCW/dcw/home/" style="text-decoration: none; color: black;">Delhi Commisson For Women</a></h2>
+                     <p></p>
+                 </div>
+                 
+                 
+                 
+                 
+                 
+                 
+                 </div>
+             </section>
+             
+             <section class="Ourteam">
+                  <div class="container text-center ">
+                      <h1>Our Amazing Team</h1>
+                 
+                  <div class="row teamsetting">
+                      <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                          <figure class="figure">
+                                <img src="{{url_for('static', filename='anugya.jpeg')}}" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                              <figcaption>
+                                  <h4>Anugya Jain</h4>
+                                  <p class="figure-caption">ML Coder</p>
+                              </figcaption>
+                          </figure>
+                     </div>
+
+                     
+                     <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                          <figure class="figure">
+                              <img src="{{url_for('static', filename='uttu.jpg')}}" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                              <figcaption>
+                                  <h4>Utkarsh Singh</h4>
+                                  <p class="figure-caption">ML Coder</p>
+                              </figcaption>
+                          </figure>
+                     </div>
+                     
+                     
+                     <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                          <figure class="figure">
+                              <img src="{{url_for('static', filename='piyush.jpeg')}}" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                              <figcaption>
+                                  <h4>Piyush Chaudhary</h4>
+                                  <p class="figure-caption">Web Developer</p>
+                              </figcaption>
+                          </figure>
+                     </div>
+                      
+                      
+                      
+                      
+                  </div>
+                   
+                   
+                   
+                   
+             <div class="container singlephoto">
+                 <figure class="figure">
+                             <img src="{{url_for('static', filename='pphimanshu.jpg')}}" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                              <figcaption>
+                                  <h4>Himanshu Singh Maurya</h4>
+                                  <p class="figure-caption">Web Developer</p>
+                              </figcaption>
+                 </figure></div></div>
+               <div class=" container text-center bg-dark" style="  font-size:18px; padding:9px; font-weight:700; ">
+            <p style="margin-top:0; padding:0; color: orange;">Design and developed by V-PROGEEKS</p>
+        </div>
+
+               
+             </section>
+          
+        
+         
+       
+    </body>
+</html>

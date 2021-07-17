@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <title>
+            OurTeamAreaPred
+        </title>
+        <link rel="stylesheet" types="text/css" href="teampagecss.css">
+      <link rel="stylesheet" type="text/css" href="bootstrap.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        .Ourteam{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+
+
+}
+
+.Ourteam h1{
+     font-size: 50px;
+    font-weight: bold;
+}
+
+
+.teamsetting{
+    margin-top: 90px  ;
+
+}
+.Ourteam p{
+   padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+    </style>
+    
+    <body>
+        
+        
+         <nav class="navbar navbar-expand-md bg-dark navbar-dark ">
+             <div class="container">
+                 <a href="/" class="navbar-brand text-warning font-weight-bold">V-PROGEEKS</a>
+                 
+                 
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar"> 
+                 
+                 <span class="navbar-toggler-icon"></span>
+                 
+                 </button>
+                 
+                 <div class="collapse navbar-collapse " id="collapsenavbar">
+                     <ul class="navbar-nav ml-auto ">
+                         <li class="nav-item">
+                             <a href="#" class="nav-link text-white">Services </a>
+                         </li>
+                         
+                         <li class="nav-item">
+                             <a href="about" class="nav-link text-white">About Us </a>
+                         </li>
+                         
+                         <li class="nav-item">
+                             <a href="team" class="nav-link text-white">Team </a>
+                         </li>
+                         
+                         <li class="nav-item">
+                             <a href="contact" class="nav-link text-white"> Contact</a>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+             
+             </nav>
+             
+             
+                        <section class="Ourteam">
+                  <div class="container text-center ">
+                      <h1>Our Amazing Team</h1>
+                 
+                  <div class="row teamsetting">
+                      <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                          <figure class="figure">
+                                <img src="{{url_for('static', filename='anugya.jpeg')}}" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                              <figcaption>
+                                  <h4>Anugya Jain</h4>
+                                  <p class="figure-caption">ML Coder</p>
+                              </figcaption>
+                          </figure>
+                     </div>
+
+
+                     <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                          <figure class="figure">
+                              <img src="{{url_for('static', filename='uttu.jpg')}}" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                              <figcaption>
+                                  <h4>Utkarsh Singh</h4>
+                                  <p class="figure-caption">ML Coder</p>
+                              </figcaption>
+                          </figure>
+                     </div>
+
+
+                     <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                          <figure class="figure">
+                              <img src="{{url_for('static', filename='piyush.jpeg')}}" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                              <figcaption>
+                                  <h4>Piyush Chaudhary</h4>
+                                  <p class="figure-caption">Web Developer</p>
+                              </figcaption>
+                          </figure>
+                     </div>
+
+
+
+
+                  </div>
+
+
+
+
+             <div class="container singlephoto">
+                 <figure class="figure">
+                             <img src="{{url_for('static', filename='pphimanshu.jpg')}}" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                              <figcaption>
+                                  <h4>Himanshu Singh Maurya</h4>
+                                  <p class="figure-caption">Web Developer</p>
+                              </figcaption>
+                 </figure></div></div>
+               <div class=" container text-center bg-dark" style="  font-size:18px; padding:9px; font-weight:700; ">
+            <p style="margin-top:0; padding:0; color: orange;">Design and developed by V-PROGEEKS</p>
+        </div>
+
+
+             </section>
+
+
+
+        
+        
+
+    
+    </body>
+</html>

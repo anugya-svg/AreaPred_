@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <title>Career Predictor</title>
+        <link rel="stylesheet" types="text/css" href="/static/formpage.css">
+         <link rel="stylesheet" type="text/css" href="bootstrap.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    
+    
+    <body>
+        <div class="bgimg">
+           
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark ">
+
+            <div class="container">
+                <a href="home"class="navbar-brand text-warning font-weight-bold">V-PROGEEKS</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+
+                 <span class="navbar-toggler-icon"></span>
+
+                 </button>
+
+                 <div class="collapse navbar-collapse " id="collapsenavbar">
+                     <ul class="navbar-nav ml-auto ">
+                         
+
+                         <li class="nav-item">
+                             <a href="about" class="nav-link text-white">About Us </a>
+                         </li>
+
+                         <li class="nav-item">
+                             <a href="team" class="nav-link text-white">Team </a>
+                         </li>
+
+                         
+                     </ul>
+            </div>
+         </nav>    
+             <div class="container-fluid textpage">
+                <div class="container text1 text-center ">
+                   <h1>Area Prediction Form</h1>
+                    <p>Fill up the questions asked and predict the safety percentage of an area.</p>
+                    <div class="container-fluid  formbranch text-md-left border border-dark "> 
+   <form action="{{ url_for('predict')}}" method="POST"> 
+
+
+     
+<label for="marks_s">Area of the region </label> 
+    <select id="marks_s" name="marks_s"> 
+      <option value="0">Ramapuram</option> 
+      <option value="1">Adyar</option> 
+      <option value="2">West Mambalam</option> 
+      
+    </select>
+    <br>
+    <br>
+    <br>
+    
+
+
+<label for="marks_s">Zone of the region </label> 
+    <select id="marks_s" name="marks_s"> 
+      <option value="0">Aanandam Nagar</option> 
+      <option value="1">Ambal Nagar</option> 
+      <option value="2">Amman Nagar</option> 
+    <option value="3">Baktavatsalm Nagar</option> 
+    <option value="4">Easwaran Nagar</option>
+    <option value="5">Gokulam Colony</option>   
+    <option value="6">Kasi Viswanathar Colony</option>   
+     <option value="7">Moogambigai Nagar</option>  
+        <option value="8">Moovendar Colonyr</option>
+    <option value="9">Mullai Nagar</option>   
+    <option value="10">Pannerselvam Nagar</option>   
+     <option value="11">Postal Colony</option>     
+          <option value="12">RamaKrishnapuram</option>  
+        <option value="13">Royala Nagar</option>
+    <option value="14">Shastri Nagar</option>   
+    <option value="15">South Kesavaperumalpuram</option>   
+     <option value="16">Subramaniam Nagar</option>     
+       
+      
+    </select>
+    <br>
+    <br>
+    <br>
+      
+    
+    <label for="marks_s">Time Of going out </label> 
+    <select id="marks_s" name="marks_s"> 
+      <option value="0">Morning</option> 
+      <option value="1">Afternoon</option> 
+      <option value="2">Eveninng</option> 
+      <option value="3">Night</option> 
+      
+      
+    </select> 
+    <br>  <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    <label for="marks_m">People Frequency in the area</label> 
+    <select id="marks_m" name="marks_m"> 
+      <option value="0">Low</option> 
+      <option value="1">Medium</option> 
+      <option value="2">High</option> 
+
+    </select> 
+    
+    
+    <br>
+     <br>
+    <br>
+    <br>
+    <br>
+    <label for="logical">Police station availability</label> 
+    <select id="logical" name="logical"> 
+      <option value="0">Yes</option> 
+      <option value="1">No</option> 
+    
+      
+    </select> 
+    
+     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    <label for="memory">Any Bar in the area</label> 
+    <select id="memory" name="memory"> 
+      <option value="0">Yes</option> 
+      <option value="1">No</option> 
+      
+      
+    </select> 
+    <br>
+     <br>
+    <br>
+    <br>
+    <br>
+    <label for="underst">Where is the area situated to nearest city</label> 
+    <select id="underst" name="underst"> 
+      <option value="0">Inner</option> 
+      <option value="1">Middle</option> 
+      <option value="2">Outer</option> 
+      
+      
+    </select> 
+    
+    <br> 
+     <br>
+    <br>
+    <br>
+    <br>
+    <label for="tech">No of resident in that area</label> 
+    <select id="tech" name="tech"> 
+      <option value="0">Low</option> 
+      <option value="1">Medium</option> 
+      <option value="2">High</option> 
+      
+      
+    </select> 
+    
+    <br>
+     <br>
+    <br>
+    <br>
+    <br>
+    
+     
+    <div class=" container text2 text-center"><input type="submit" value="Submit"> </div>
+
+  </form> 
+</div> 
+                </div>
+                 
+             </div>
+            
+            </nav><div class=" container text-center bg-dark" style="  font-size:18px; padding:9px; font-weight:700;">
+            <p style="margin-top:0; padding:0; color: orange;">Design and developed by V-PROGEEKS</p>
+        </div>
+        
+        </div>
+            </body>
+</html>

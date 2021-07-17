@@ -1,0 +1,46 @@
+.textpage{
+    margin: 20px;
+    padding: 80px;
+}
+.text1 h1{
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.text1 p{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+.formbranch{
+    padding: 100px;
+    padding-left: 60px;
+}
+
+.formbranch label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.formbranch select{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px;
+    margin-left: 50px;
+}
+
+.formbranch input{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;;
+}
+.text2 input{
+    background-color: orange;
+    padding:10px 30px 10px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}

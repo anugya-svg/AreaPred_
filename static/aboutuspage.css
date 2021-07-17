@@ -1,0 +1,50 @@
+.box1{
+   margin: 60px;
+    padding: 80px;
+}
+
+.box1 h1{
+     font-size: 80px;
+    font-weight: bold;
+}
+
+
+
+.box1 p{
+   padding: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box2{
+      padding: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box1 h3{
+    padding: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
+
+.bgimage{
+    background-image: url(photography-of-roadway-during-dusk-1034662.jpg);
+    background-size: 100% 100%;
+    background background-attachment: fixed;
+    width: 100%;
+    height: 760px;
+    
+}
+.headerset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+.headerset h2{
+    font-size: 42px;
+}
+.headerset h1{
+    font-size: 100px;
+    font-weight: bold;
+}
